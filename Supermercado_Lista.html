@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Supermarket</title>
+    
+    <link rel="shortcut icon" type="imagex/png" href="logo.png">
+
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h2> <img src="logo.png" width="3%"> Lista Supermarket</h2>
+
+        <div class="lista-cadastro">
+            <input type="text" placeholder="Nome do produto..." name="nome_produto">
+            <input type="number" placeholder="Valor do produto" name="valor_produto" step="0.01">
+            <input type="submit" id="botaoAdd" name="acao" value="Adicionar">
+        </div>
+
+    </header>
+
+    <div class="lista-produtos"></div>
+
+    <div class="soma-produto">
+        <h1>Total: R$ 00,00</h1>
+    </div>
+
+    
+
+    <div class="limpar">
+        
+        <button id="apagar" name="limpar">Excluir</button>
+    
+    </div>
+    
+    <script src="lista.js"></script> 
+
+</body>
+</html>
